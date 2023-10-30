@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Red+Hat+Display:wght@300;400&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ECF2FF;
+   height: 100vh;
+
+}
+.main {
+      width: 375px;
+      height: 809px;
+      background: white;
+      display: flex;
+      position: relative;
+}
+.result{
+    width: 375px;
+    display: flex;
+    position: absolute;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction:column;
+    height: 356px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 32px 32px;
+background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+}
+#title{
+    color: var(--Light-Blue, #CAC9FF);
+    text-align: center;
+    font-family: Hanken Grotesk, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 20px;
+    line-height: normal;
+    font-weight: 700px;
+   
+}
+
+#svg{
+   
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+.overall{
+   margin-top: -120px;
+}
+#Number{
+color: var(--White, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 56px;
+font-style: normal;
+font-weight: 800;
+line-height: 72px;
+/* margin-top: -120px;
+margin-bottom: -25px; */
+}
+
+#ofResult{
+color: var(--Light-Blue, #CAC9FF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+opacity: 0.5168;
+ margin-left: 10px;
+}
+
+
+.text{
+    margin-top:  20px;;
+   
+}
+#great{
+color: var(--White, #FFF);
+margin-top: 30px;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#sum{
+    color: var(--Light-Blue, #CAC9FF);
+    width: 260px;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#Summary{
+ color: var(--Dark-Navy, #303B59);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+align-self: flex-start;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 60px;
+margin-left: 30px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    margin-top: 20px;
+    flex-direction: column;
+
+}
+.box{
+    width: 315px;
+    height: 56px;
+    display: flex;
+    justify-content: flex-start;
+   background: white;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+.box1{
+    border-radius: 12px;
+    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+color: var(--Red, #F55);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;  
+}
+.box2{
+    border-radius: 12px;
+    background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+    color: var(--Yellow, #FFB21E);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.box3{
+border-radius: 12px;
+background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+color: var(--Green, #00BB8F);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+
+}
+.box4{
+    border-radius: 12px;
+background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+color: var(--Blue, #1125D6);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.box img{
+    width: 20px;
+    height: 20px;
+   margin: 18px 0px 18px 16px;
+}
+
+.box h1 {
+    margin: 17px 0px 18px 12px;
+
+}
+#skills{
+margin: 17px 0px 18px 124px;
+color: var(--Dark-Navy, #303B59);
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.box p {
+    margin: 17px 16px 18px 8px;
+    color: var(--Dark-Navy, #303B59);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+button{
+    width: 315px;
+    height: 56px;
+    flex-shrink: 0;
+ border-radius: 128px;
+background:  #303B59;
+ border: none;
+color:white;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+margin-top: 30px;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-style: normal;
+
+font-weight: 700;
+line-height: normal;
+}
+
+button:hover {
+    background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    cursor: pointer;
+}
+
+
+@media (min-width:1000px){
+    .main{
+        width: 736px;
+        height: 512px;
+        flex-shrink: 0;
+        border-radius: 32px;
+        box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+        justify-content: space-between;
+
+    }
+    .result {
+        width: 368px;
+        border-radius: 32px;
+        height: 512px;
+        background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    }
+        #title{
+            font-size: 24px;
+              margin: 38px 124px 0px 119px;
+        }
+        #svg{
+            padding-top: 20px;
+            width: 200px;
+            height: 200px;
+        }
+        .text{
+            margin-top: 30px;
+        }
+        #great{
+            font-size: 32px;
+        }
+        #sum{
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    .container{
+       margin-left: 700px;
+       margin-top: -500px;
+       padding-top: 30px;
+    }
+    #Summary{
+        font-size: 24px;
+    }
+    .box{
+        margin-left: 30px;
+    }
+    button{
+        margin-left: 30px;
+    }
+
+}
